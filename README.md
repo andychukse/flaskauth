@@ -1,5 +1,8 @@
-# flask-auth
 # flaskauth
+
+Recently, I decided to learn Python, as part of learning I built a remote jobs ([remoteworka](https://remoteworka.com)) platform using Python Flask. 
+This repo is part of the article:
+## How to Building a User Authentication API using Python Flask and MySQL
 
 ## Download repo
 ```
