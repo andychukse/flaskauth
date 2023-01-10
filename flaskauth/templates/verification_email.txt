@@ -1,0 +1,5 @@
+{{ subject }}
+
+Hello {{ name.capitalize() }}, you just created an account on {{ appName }}, please verify your account by using code: {{ callBack }}
+
+Regards, {{ appName }}

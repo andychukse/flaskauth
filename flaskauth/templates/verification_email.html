@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+  <tr>
+        <td style="padding:0 20px;">
+                <p style="line-height:1.5;">Hello {{ name.capitalize() }}, <br /> You just created an account on {{ appName }}, please verify your account by using code below.</p>
+            {% endif %}
+                <p>
+                <span style="background:#3273b5;display:inline-block;margin-bottom:5px;padding:10px 15px;color:white;text-decoration: none;border-radius:2px; -moz-border-radius: 2px;font-size:0.9em;font-family: Arial">{{ callBack }}</span>
+                </p>
+        </td>
+    </tr>
+{% endblock %}
